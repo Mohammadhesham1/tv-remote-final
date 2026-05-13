@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📺"
+        android:textSize="72sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ربط التليفزيون"
+        android:textColor="@color/text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تأكد إن التليفون والتليفزيون على نفس الـ Wi-Fi"
+        android:textColor="@color/sub"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnScanDevices"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="بحث تلقائي عن الأجهزة"
+        android:textColor="@color/text"
+        android:backgroundTint="@color/accent"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="أو أدخل الـ IP يدوياً"
+        android:textColor="@color/dim"
+        android:textSize="12sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etIpAddress"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="192.168.1.xxx"
+        android:inputType="text"
+        android:gravity="center"
+        android:background="@color/surface"
+        android:textColor="@color/text"
+        android:textColorHint="@color/dim"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnManualPair"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="اتصال"
+        android:textColor="@color/text"
+        android:backgroundTint="@color/surface"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/btnSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تخطي في الوقت الحالي"
+        android:textColor="@color/dim"
+        android:textSize="13sp"
+        android:padding="8dp"/>
+
+</LinearLayout>
